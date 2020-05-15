@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="assets/css/base.css" />
 		<link rel="stylesheet" href="assets/css/layout.css" />
 		<link rel="stylesheet" href="assets/css/module.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
 	</head>
 	<body class="is-preload">
@@ -161,7 +162,7 @@
 
 						<a href="#" class="image featured"><img src="https://images.squarespace-cdn.com/content/v1/5456b306e4b0b9880b554b16/1415648437045-ZEBFXXO2JR7JYUKB0S1A/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/Camping+-+Icicle+Creek+2010+005.JPG?format=2500w" alt="" /></a>
 
-						<p>Hi!  I’m Dr. Sue Tarazi and I am a full stack C# .NET and JavaScript Software Engineer with a passion for making life better. After earning my undergraduate degree in Biomedical Engineering, I worked as a dot.commer for two years until the bubble burst and there were no tech jobs to be had. I then returned to graduate school and got my doctorate degree in Physical Therapy. Since then, I have owned and operated my own Physical Therapy practice for over 9 years that operated in the black every year. I really enjoy problem solving, how things fit together and connecting with others – all skill transferable to the tech world. I also bring with me the skills of organization and running a business. Tech allows me to reach a broader audience. Now, instead of just improving the life of one patient at a time, using tech and working with a team allows me to develop a product or service that would benefit many people at once and be more impactful. </p>
+						<p>Hi!  I’m Dr. Sue Tarazi and I am a full stack C# .NET and JavaScript Software Engineer with a passion for making life better. After earning my undergraduate degree in Biomedical Engineering, I worked as a dot.commer for two years until the bubble burst and there were no tech jobs to be had.</p> <p> I then returned to graduate school and got my doctorate degree in Physical Therapy. Since then, I have owned and operated my own Physical Therapy practice for over 9 years that operated in the black every year. I really enjoy problem solving, how things fit together and connecting with others – all skill transferable to the tech world. I also bring with me the skills of organization and running a business.</p> <p>Tech allows me to reach a broader audience. Now, instead of just improving the life of one patient at a time, using tech and working with a team allows me to develop a product or service that would benefit many people at once and be more impactful. </p>
 						<!-- <div id="mediaLinks">
 						<article class="item">
 							<a href="https://www.linkedin.com/in/sue-tarazi-b792b520/" class="image fit"><img src="https://suetarazi.github.io/software-wellness/images/linkedin-logo-png-transparent-background-4.png" alt="" /></a>
@@ -189,8 +190,66 @@
 						</header>
 
 						<p>I'd love to hear from you! Please contact me below.</p>
+						<section class="resume-section p-4 p-lg-5 text-center" id="contact">
+							<div class="my-auto">
+							  <!-- <h2 class="mb-4">&lt; Contact Information &gt;</h2> -->
+					
+							  <ul class="fa-ul mb-4 ml-0">
+								<li id="mail-address">
+					<!--               Replace with your email address -->
+									<i class="fas fa-envelope-open mr-2 contact-icons"></i
+									>suemachtley@gmail.com</a
+								  >
+								</li>
+								<li>
+								  <i class="fas fa-mobile-alt mr-2 contact-icons"></i>415-336-4012
+								</li>
+								<li>
+								  <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Seattle, WA
+								</li>
+							  </ul>
+					
+						<form
+            class="contact-form d-flex flex-column align-items-center"
+            action="https://formspree.io/suemachtley@gmail.com"
+            method="POST"
+          >
+            <div class="form-group w-75">
+              <input
+                type="name"
+                class="form-control"
+                placeholder="Name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group w-75">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                name="name"
+                required
+              />
+            </div>
 
-						<form method="post" action="#">
+            <div class="form-group w-75">
+              <textarea
+                class="form-control"
+                type="text"
+                placeholder="Message"
+                rows="7"
+                name="name"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+          </form>
+        </div>
+      </section>
+
+						<!-- <form method="post" action="#">
 							<div class="row">
 								<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
 								<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
@@ -201,7 +260,7 @@
 									<input type="submit" value="Send Message" />
 								</div>
 							</div>
-						</form>
+						</form> -->
 
 					</div>
 				</section>
@@ -219,6 +278,12 @@
 		</div>
 
 	<!-- Scripts -->
+	<script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"
+    ></script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>

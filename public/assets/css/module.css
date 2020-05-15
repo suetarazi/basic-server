@@ -631,6 +631,8 @@ button,
     top: 18%;
     left: 10%;
     text-align: center;
+    line-height: 100%;
+    margin-right: 10%;
 }
 
 #myVideo {

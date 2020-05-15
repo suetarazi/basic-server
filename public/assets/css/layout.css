@@ -1695,8 +1695,8 @@ margin-bottom: 0;
         }
 
         #main > section.one {
-            background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+            background-color: #f5fafa;
+            /* background-image: url("../../images/banner.jpg"); */
         }
 
         #main > section.two {

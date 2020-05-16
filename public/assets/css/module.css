@@ -642,9 +642,9 @@ button,
 
 header {
     position: relative;
-    /* background-color: black;
+    background-color: black;
     height: 75vh;
-    min-height: 25rem; */
+    min-height: 25rem;
     width: 100%;
     overflow: hidden;
   }

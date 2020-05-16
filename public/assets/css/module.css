@@ -640,7 +640,7 @@ button,
     opacity: 0.8;
 }
 
-header {
+/* header {
     position: relative;
     background-color: black;
     height: 75vh;
@@ -679,4 +679,4 @@ header {
     background-color: black;
     opacity: 0.5;
     z-index: 1;
-  }
+  } */

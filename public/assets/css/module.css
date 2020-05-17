@@ -638,6 +638,10 @@ button,
     opacity: 0.8;
 }
 
+#moveWords{
+    text-align: center;
+}
+
 /* #top {
     position: relative;
 }

@@ -624,24 +624,26 @@ button,
 
 #top {
     position: relative;
+    text-align: center;
 }
 
 #introContainer {
     position: absolute;
     width: 100%;
-    top: 18%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
 }
 
 #myVideo {
-    width: 950px;
+    /* width: 950px; */
     opacity: 0.8;
 }
 
-#moveWords{
+/* #moveWords{
     text-align: center;
     margin-right: 20px;
-}
+} */
 
 /* #top {
     position: relative;

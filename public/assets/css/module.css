@@ -628,8 +628,7 @@ button,
 
 #introContainer {
     position: absolute;
-    /* top: 18%;
-    left: 10%; */
+    width: 100%;
     text-align: center;
     line-height: 100%;
     margin-right: 30%;
@@ -638,6 +637,11 @@ button,
 #myVideo {
     width: 950px;
     opacity: 0.8;
+}
+
+#introContainer{
+position: absolute;
+z-index: 1;
 }
 
 /* header {

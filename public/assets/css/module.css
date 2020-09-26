@@ -635,10 +635,10 @@ button,
     
 }
 
-/*Trying to get text centered over video - from Christian Downs via LinkedIn: */
+/*Trying to get text centered over video - from Christian Downs via LinkedIn: 
 div #introContainer {
     padding: 0em 0em 0em 20%;
-}
+}*/
 
 #myVideo {
     width: 950px;
